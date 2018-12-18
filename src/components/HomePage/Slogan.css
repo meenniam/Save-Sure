@@ -1,0 +1,124 @@
+.SloganCon{
+  width: 100%;
+  background-image: url('../../images/bannerSlogan.jpg');
+  background-repeat: no-repeat;
+  height: 850px;
+  background-size: 100%;
+  background-color: #f5f5f5;
+}
+
+.divSlogan1{
+  opacity: 0;
+  transform: translateX(20%);
+  transition: all 500ms linear;
+}
+
+.divSlogan2{
+  opacity: 0;
+  transform: translateX(40%);
+  transition: all 500ms linear;
+}
+.divSlogan3{
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all 500ms linear;
+}
+.divSlogan4{
+  opacity: 0;
+  transform: translateX(60%);
+  transition: all 500ms linear;
+}
+.divSlogan5{
+  opacity: 0;
+  transform: translateX(70%);
+  transition: all 500ms linear;
+}
+
+.in-view1{
+  opacity: 1;
+  transform: translateX(10%);
+}
+
+.in-view2{
+  opacity: 1;
+  transform: translateX(30%);
+}
+.in-view3{
+  opacity: 1;
+  transform: translateX(40%);
+}
+.in-view4{
+  opacity: 1;
+  transform: translateX(50%);
+}
+.in-view5{
+  opacity: 1;
+  transform: translateX(60%);
+}
+
+
+
+@media only screen and (max-width:500px) {
+  .SloganCon{
+    height: 600px;
+    background-image: url('../../images/bannerSloganSmall.jpg');
+    background-size: cover;
+  }
+
+  .imgSlogan1{
+    width: 90%;
+  }
+  .imgSlogan2{
+    width: 100%;
+  }
+  .imgSlogan3{
+    width: 100%;
+  }
+  .imgSlogan4{
+    width: 100%;
+  }
+  .imgSlogan5{
+    width: 90%;
+  }
+
+  .divSlogan1{
+    transform: translateX(-10px);
+  }
+
+  .divSlogan2{
+    transform: translateX(-10px);
+  }
+  .divSlogan3{
+    transform: translateX(5px);
+  }
+  .divSlogan4{
+    transform: translateX(-10px);
+  }
+  .divSlogan5{
+    transform: translateX(15px);
+  }
+
+  .in-view1{
+    opacity: 1;
+    transform: translateX(5px);
+  }
+
+  .in-view2{
+    opacity: 1;
+    transform: translateX(5px);
+  }
+  .in-view3{
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  .in-view4{
+    opacity: 1;
+    transform: translateX(5px);
+  }
+  .in-view5{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+
+}

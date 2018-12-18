@@ -1,0 +1,39 @@
+.insuranceCon{
+  width: 100%;
+  padding-top: 50px;
+}
+
+.colInsure-3{
+  float: left;
+  width: 33.33%;
+}
+
+.insuraceIn{
+  margin: auto;
+  width: 80%;
+}
+
+.insureBox{
+  padding: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  background-color: #4b2f86;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.insureBox h3{
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px){
+  .colInsure-3{
+    width: 100%;
+  }
+
+  .insureBox{
+    width: 95%;
+  }
+}
